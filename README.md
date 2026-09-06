@@ -42,19 +42,20 @@
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h3 align="center">🎓 <a href="https://github.com/NguyenLee15/student-management">Student Management System</a></h3>
+      <h3 align="center">🎓 <a href="https://github.com/NguyenLee15/student-management">EduPortal — Academic ERP</a></h3>
       <p align="center">
-        <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring&logoColor=white"/>
+        <a href="https://lee-eduportal.vercel.app/"><img src="https://img.shields.io/badge/Live_Demo-lee--eduportal.vercel.app-000000?style=flat-square&logo=vercel&logoColor=white"/></a>
+        <img src="https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
         <img src="https://img.shields.io/badge/Java_21-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
-        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
-        <img src="https://img.shields.io/badge/PayOS-2563EB?style=flat-square&logo=cashapp&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+        <img src="https://img.shields.io/badge/React_18-61DAFB?style=flat-square&logo=react&logoColor=black"/>
+        <img src="https://img.shields.io/badge/MySQL_8.0-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
+        <img src="https://img.shields.io/badge/PayOS-0052CC?style=flat-square&logo=cashapp&logoColor=white"/>
       </p>
       <ul>
-        <li><b>Academic Management Platform</b> built with Clean Architecture, Domain-Driven principles, and layered security.</li>
-        <li><b>Role-Based Access Control (RBAC)</b>: Fine-grained permissions separating Students, Teachers, Staff, and Administrators.</li>
-        <li><b>Tuition Billing & PayOS Integration</b>: Webhook-driven idempotent transaction processing and automated payment receipts.</li>
-        <li><b>Defensive Engineering</b>: Zero N+1 query leaks, comprehensive unit & integration tests, and containerized Docker setup.</li>
+        <li><b>Enterprise University Academic & Student Information ERP</b> with 3 decoupled portals for <b>Admins</b>, <b>Lecturers</b>, and <b>Students</b>.</li>
+        <li><b>National Educational Compliance</b>: Full compliance with Vietnamese MOET regulations (<b>Thông tư 08/2021/TT-BGDĐT</b>) for 10-point, 4-point GPA and letter grading.</li>
+        <li><b>Registration Race Condition Elimination</b>: Pessimistic database locking preventing course over-enrollment during registration spikes.</li>
+        <li><b>Automated Tuition & VietQR</b>: Real-time billing, QR generation, and idempotent webhook reconciliation via <b>PayOS</b>.</li>
       </ul>
     </td>
   </tr>
@@ -69,10 +70,10 @@
 | Domain | Technologies |
 | :--- | :--- |
 | **Backend Engineering** | <img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white"/> <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/> <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white"/> <img src="https://img.shields.io/badge/Java_21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/> <img src="https://img.shields.io/badge/Prisma_ORM-2D3748?style=for-the-badge&logo=prisma&logoColor=white"/> <img src="https://img.shields.io/badge/BullMQ-FF4438?style=for-the-badge&logo=redis&logoColor=white"/> |
-| **Frontend & Mobile** | <img src="https://img.shields.io/badge/Next.js_16-000000?style=for-the-badge&logo=next.js&logoColor=white"/> <img src="https://img.shields.io/badge/React_19-61DAFB?style=for-the-badge&logo=react&logoColor=black"/> <img src="https://img.shields.io/badge/React_Native-61DAFB?style=for-the-badge&logo=react&logoColor=black"/> <img src="https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white"/> <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white"/> <img src="https://img.shields.io/badge/Shadcn_UI-000000?style=for-the-badge&logo=shadcnui&logoColor=white"/> <img src="https://img.shields.io/badge/Zustand-443E38?style=for-the-badge&logo=react&logoColor=white"/> |
-| **Databases & Cache** | <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/> <img src="https://img.shields.io/badge/pgvector-336791?style=for-the-badge&logo=postgresql&logoColor=white"/> <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"/> |
+| **Frontend & Mobile** | <img src="https://img.shields.io/badge/Next.js_16-000000?style=for-the-badge&logo=next.js&logoColor=white"/> <img src="https://img.shields.io/badge/React_18%2F19-61DAFB?style=for-the-badge&logo=react&logoColor=black"/> <img src="https://img.shields.io/badge/React_Native-61DAFB?style=for-the-badge&logo=react&logoColor=black"/> <img src="https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white"/> <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white"/> <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white"/> <img src="https://img.shields.io/badge/Shadcn_UI-000000?style=for-the-badge&logo=shadcnui&logoColor=white"/> |
+| **Databases & Cache** | <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/> <img src="https://img.shields.io/badge/MySQL_8.0-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/> <img src="https://img.shields.io/badge/pgvector-336791?style=for-the-badge&logo=postgresql&logoColor=white"/> <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"/> |
 | **Cloud & DevOps** | <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/> <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"/> <img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black"/> <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white"/> <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/> |
-| **AI & Integrations** | <img src="https://img.shields.io/badge/Google_Gemini-8E75C2?style=for-the-badge&logo=googlegemini&logoColor=white"/> <img src="https://img.shields.io/badge/VNPay_Gateway-ED1C24?style=for-the-badge&logo=contactlesspayment&logoColor=white"/> <img src="https://img.shields.io/badge/PayOS_Gateway-2563EB?style=for-the-badge&logo=cashapp&logoColor=white"/> <img src="https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white"/> |
+| **AI & Payments** | <img src="https://img.shields.io/badge/Google_Gemini-8E75C2?style=for-the-badge&logo=googlegemini&logoColor=white"/> <img src="https://img.shields.io/badge/PayOS_VietQR-0052CC?style=for-the-badge&logo=cashapp&logoColor=white"/> <img src="https://img.shields.io/badge/VNPay_Gateway-ED1C24?style=for-the-badge&logo=contactlesspayment&logoColor=white"/> <img src="https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white"/> |
 
 </div>
 
@@ -84,10 +85,10 @@
   <table border="0">
     <tr>
       <td width="50%">
-        <img src="https://github-readme-stats.vercel.app/api?username=NguyenLee15&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8&text_color=e2e8f0" alt="GitHub Stats" width="100%"/>
+        <img src="https://github-stats-extended.vercel.app/api?username=NguyenLee15&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8&text_color=e2e8f0" alt="GitHub Stats" width="100%"/>
       </td>
       <td width="50%">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NguyenLee15&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=e2e8f0" alt="Top Languages" width="100%"/>
+        <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=NguyenLee15&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=e2e8f0" alt="Top Languages" width="100%"/>
       </td>
     </tr>
   </table>
